@@ -1,0 +1,39 @@
+body {
+  scroll-behavior: smooth;
+}
+
+/* Hero */
+.hero {
+  background: url("images/food1.jpg") center/cover no-repeat;
+  padding: 120px 0;
+}
+
+/* Fade animation */
+.fade-in {
+  animation: fade 1.5s ease;
+}
+
+@keyframes fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Food Images */
+.food-img {
+  border-radius: 15px;
+  margin-bottom: 10px;
+  transition: transform 0.3s;
+}
+.food-img:hover {
+  transform: scale(1.05);
+}
+body{
+background-image: url("https://www.shutterstock.com/image-photo/defocused-background-modern-industrial-restaurant-260nw-2658818635.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;}
+  .container{
+    color: whitesmoke;
+  }
+  
